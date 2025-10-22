@@ -31,30 +31,14 @@ To write a Python program that sorts a dictionary's:
 
 ## 🧪Program
 ```
-def dictionary(): 
-
-key_value ={}    
-
-key_value[2] = 56    
-
-key_value[1] = 2 
-
-key_value[5] = 12 
-
-key_value[4] = 24 
-
-key_value[6] = 18   
-
-key_value[3] = 323 
-
-print ("Keys and Values sorted", 
-"in alphabetical order by the value") 
-
-print(sorted(key_value.items(), key = 
-lambda kv:(kv[1], kv[0])))
+data=eval(input())
+sort=dict(sorted(data.items()))
+print("Keys and Values sorted in alphabetical order by the key")
+for key, value in sort.items():
+    print(f"({key}, {value}) ",end="")
 ```
 
 ## Sample Output
-![Screenshot 2025-05-03 143847](https://github.com/user-attachments/assets/60f9d953-4528-4af0-ad2d-da18fce497b9)
+![image](https://github.com/user-attachments/assets/a550855e-67ac-49f1-b4ae-9416d11fd693)
 ## Result
 Thus, the program has been successfully executed. 
