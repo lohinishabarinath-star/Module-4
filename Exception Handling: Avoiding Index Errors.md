@@ -16,11 +16,11 @@ list1=[5, 10, 20]
 
 try: 
 
-print(list1[5]) 
+   print(list1[5]) 
 
 except: 
 
-print("You're out of list range")
+   print("You're out of list range")
 ```
 ## Output
 ![Screenshot 2025-05-03 144027](https://github.com/user-attachments/assets/41405ea3-b4d6-470d-98a0-80a8c37089b5)
